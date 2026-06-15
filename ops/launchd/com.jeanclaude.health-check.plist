@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+    <key>Label</key><string>com.jeanclaude.health-check</string>
+    <key>ProgramArguments</key>
+    <array><string>/Users/USERNAME/JeanClaude/.venv/bin/python</string><string>scripts/check_paper_health.py</string></array>
+    <key>WorkingDirectory</key><string>/Users/USERNAME/JeanClaude</string>
+    <key>EnvironmentVariables</key>
+    <dict><key>HOME</key><string>/Users/USERNAME</string><key>PATH</key><string>/Users/USERNAME/.local/bin:/opt/homebrew/bin:/usr/bin:/bin:/usr/sbin:/sbin</string></dict>
+    <key>StartCalendarInterval</key><dict><key>Hour</key><integer>23</integer><key>Minute</key><integer>30</integer></dict>
+    <key>StandardOutPath</key><string>/Users/USERNAME/JeanClaude/logs/health_check.log</string>
+    <key>StandardErrorPath</key><string>/Users/USERNAME/JeanClaude/logs/health_check.log</string>
+</dict>
+</plist>

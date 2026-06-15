@@ -1,0 +1,54 @@
+{
+  "damp_grid": [
+    0.25,
+    0.5
+  ],
+  "equity_rics": [
+    "SPY.P",
+    "QQQ.O",
+    "IWM.P",
+    "IVE.P",
+    "EFA.P",
+    "EEM.P",
+    "EWJ.P"
+  ],
+  "execution_lag": 1,
+  "is_end": "2011-12-31",
+  "is_start": "2005-01-01",
+  "mom_grid_aggressive": [
+    0.5
+  ],
+  "mom_grid_balanced": [
+    0.5
+  ],
+  "name": "sprint-l-equity-structural",
+  "notes": "Sprint L: floor strutturale equity_min ∈ {0.5, 0.6, 0.7} × damp ∈ {0.25, 0.5}, mom=0.5 congelato. Criterio successo ex-ante: Sharpe ≥ 60/40 AND MaxDD ≤ 60/40 AND CAGR ≥ 8%. Fonte TR Yahoo. Lezioni I/J/K: no leva, no HMM.",
+  "oos_end": "2026-06-01",
+  "oos_start": "2012-01-01",
+  "price_adjustments": [],
+  "price_field": "close",
+  "rebalance_freq": "ME",
+  "tc_bps": 10.0,
+  "universe": [
+    "SPY.P",
+    "QQQ.O",
+    "IWM.P",
+    "IVE.P",
+    "EFA.P",
+    "EEM.P",
+    "EWJ.P",
+    "TLT.O",
+    "IEF.O",
+    "SHY.O",
+    "TIP.P",
+    "LQD.P",
+    "HYG.P",
+    "EMB.P",
+    "GLD.P",
+    "SLV.P",
+    "DBC.P",
+    "VNQ.P",
+    "BIL.P",
+    "UUP.P"
+  ]
+}

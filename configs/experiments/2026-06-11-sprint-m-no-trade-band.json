@@ -1,0 +1,53 @@
+{
+  "damp_grid": [
+    0.25
+  ],
+  "equity_rics": [
+    "SPY.P",
+    "QQQ.O",
+    "IWM.P",
+    "IVE.P",
+    "EFA.P",
+    "EEM.P",
+    "EWJ.P"
+  ],
+  "execution_lag": 1,
+  "is_end": "2011-12-31",
+  "is_start": "2005-01-01",
+  "mom_grid_aggressive": [
+    0.5
+  ],
+  "mom_grid_balanced": [
+    0.5
+  ],
+  "name": "sprint-m-no-trade-band",
+  "notes": "Sprint M: no-trade band su base Sprint L congelata (em=0.5, damp=0.25, mom=0.5). Ipotesi ex-ante: threshold ∈ {0.05, 0.10, 0.20} riduce turnover ≥50% e porta Sharpe ≥ 60/40 AND MaxDD ≤ 60/40 AND CAGR ≥ 8%. Parametri base CONGELATI da Sprint L: em=0.5, damp=0.25, mom=0.5. Fonte TR Yahoo. DSR cumulativo: +39 da I+J+K+L → 42 prima di IS.",
+  "oos_end": "2026-06-01",
+  "oos_start": "2012-01-01",
+  "price_adjustments": [],
+  "price_field": "close",
+  "rebalance_freq": "ME",
+  "tc_bps": 10.0,
+  "universe": [
+    "SPY.P",
+    "QQQ.O",
+    "IWM.P",
+    "IVE.P",
+    "EFA.P",
+    "EEM.P",
+    "EWJ.P",
+    "TLT.O",
+    "IEF.O",
+    "SHY.O",
+    "TIP.P",
+    "LQD.P",
+    "HYG.P",
+    "EMB.P",
+    "GLD.P",
+    "SLV.P",
+    "DBC.P",
+    "VNQ.P",
+    "BIL.P",
+    "UUP.P"
+  ]
+}

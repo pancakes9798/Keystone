@@ -1,0 +1,44 @@
+# Credentials — NEVER commit
+.env
+*.env
+secrets.json
+
+# Test artifacts
+.coverage
+htmlcov/
+.pytest_cache/
+
+# Python
+__pycache__/
+*.py[cod]
+*.egg-info/
+.venv/
+dist/
+
+# Data cache (can be large)
+jeanclaude_data/
+
+# PyTorch checkpoints
+demo/checkpoints/
+
+# macOS
+.DS_Store
+
+# IDE
+.vscode/
+.idea/
+
+# Git worktrees
+.worktrees/
+
+# Brainstorm / superpowers artifacts
+.superpowers/
+
+data/paper_trading/
+data/paper_etf/
+data/paper_sprint_l/
+data/agent/
+data/_backup_corrupt_*/
+# Cache dati LSEG (constituent JL log) — proprietari, non ridistribuibili
+data/constituents/
+logs/*.log

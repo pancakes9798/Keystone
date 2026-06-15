@@ -1,0 +1,53 @@
+{
+  "damp_grid": [
+    0.25
+  ],
+  "equity_rics": [
+    "SPY.P",
+    "QQQ.O",
+    "IWM.P",
+    "IVE.P",
+    "EFA.P",
+    "EEM.P",
+    "EWJ.P"
+  ],
+  "execution_lag": 1,
+  "is_end": "2011-12-31",
+  "is_start": "2005-01-01",
+  "mom_grid_aggressive": [
+    0.7
+  ],
+  "mom_grid_balanced": [
+    0.5
+  ],
+  "name": "sprint-k-regime-band",
+  "notes": "Sprint K: banda equity regime-condizionata (HMM walk-forward causale) su parametri base CONGELATI di Sprint I (Balanced damp=0.25 mom=0.5; Aggressive damp=0.25 mom=0.7 — NON ricalibrati). Griglia IS SOLO sulle 3 mappe banda x 2 basi = 6 combo. Macro Yahoo: VIX(^VIX), Oil(CL=F), Copper(HG=F), Gold(GC=F), EURUSD(EURUSD=X). UNKNOWN -> nessuna banda (pesi base). Tre mappe banda: K1 aggressiva: EXPANSION(0.8,1.0) TRANSITION(0.4,0.7) CONTRACTION(0.0,0.2). K2 moderata: EXPANSION(0.7,1.0) TRANSITION(0.5,0.8) CONTRACTION(0.0,0.3). K3 tenue: EXPANSION(0.9,1.0) TRANSITION(0.5,0.9) CONTRACTION(0.1,0.4). Fonte TR: Yahoo auto_adjust. OOS toccato una volta.",
+  "oos_end": "2026-06-01",
+  "oos_start": "2012-01-01",
+  "price_adjustments": [],
+  "price_field": "close",
+  "rebalance_freq": "ME",
+  "tc_bps": 10.0,
+  "universe": [
+    "SPY.P",
+    "QQQ.O",
+    "IWM.P",
+    "IVE.P",
+    "EFA.P",
+    "EEM.P",
+    "EWJ.P",
+    "TLT.O",
+    "IEF.O",
+    "SHY.O",
+    "TIP.P",
+    "LQD.P",
+    "HYG.P",
+    "EMB.P",
+    "GLD.P",
+    "SLV.P",
+    "DBC.P",
+    "VNQ.P",
+    "BIL.P",
+    "UUP.P"
+  ]
+}

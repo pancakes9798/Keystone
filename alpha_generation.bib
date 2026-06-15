@@ -1,0 +1,328 @@
+% =====================================================================
+%  alpha_generation.bib
+%  Bibliografia di riferimento sull'alpha generation
+%  Raggruppata per filone, dai fondamenti classici alla frontiera LLM.
+%
+%  NOTE:
+%   - I conteggi citazionali NON sono inclusi: variano per database
+%     (Google Scholar / Scopus / WoS). Verificali prima di citarli.
+%   - Gli arXiv ID e i DOI vanno ri-controllati prima della submission;
+%     le voci marcate con "% VERIFICARE" hanno identificativi che non
+%     ho potuto confermare con certezza.
+% =====================================================================
+
+
+% ---------------------------------------------------------------------
+%  1. FONDAMENTA CLASSICHE — factor models, momentum, framing dell'alpha
+% ---------------------------------------------------------------------
+
+@article{fama1993common,
+  author  = {Fama, Eugene F. and French, Kenneth R.},
+  title   = {Common Risk Factors in the Returns on Stocks and Bonds},
+  journal = {Journal of Financial Economics},
+  volume  = {33},
+  number  = {1},
+  pages   = {3--56},
+  year    = {1993},
+  doi     = {10.1016/0304-405X(93)90023-5}
+}
+
+@article{jegadeesh1993returns,
+  author  = {Jegadeesh, Narasimhan and Titman, Sheridan},
+  title   = {Returns to Buying Winners and Selling Losers: Implications for
+             Stock Market Efficiency},
+  journal = {The Journal of Finance},
+  volume  = {48},
+  number  = {1},
+  pages   = {65--91},
+  year    = {1993},
+  doi     = {10.1111/j.1540-6261.1993.tb04702.x}
+}
+
+@article{carhart1997persistence,
+  author  = {Carhart, Mark M.},
+  title   = {On Persistence in Mutual Fund Performance},
+  journal = {The Journal of Finance},
+  volume  = {52},
+  number  = {1},
+  pages   = {57--82},
+  year    = {1997},
+  doi     = {10.1111/j.1540-6261.1997.tb03808.x}
+}
+
+@article{fama2015five,
+  author  = {Fama, Eugene F. and French, Kenneth R.},
+  title   = {A Five-Factor Asset Pricing Model},
+  journal = {Journal of Financial Economics},
+  volume  = {116},
+  number  = {1},
+  pages   = {1--22},
+  year    = {2015},
+  doi     = {10.1016/j.jfineco.2014.10.010}
+}
+
+@article{cochrane2011discount,
+  author  = {Cochrane, John H.},
+  title   = {Presidential Address: Discount Rates},
+  journal = {The Journal of Finance},
+  volume  = {66},
+  number  = {4},
+  pages   = {1047--1108},
+  year    = {2011},
+  doi     = {10.1111/j.1540-6261.2011.01671.x}
+}
+
+@article{avellaneda2010statarb,
+  author  = {Avellaneda, Marco and Lee, Jeong-Hyun},
+  title   = {Statistical Arbitrage in the U.S. Equities Market},
+  journal = {Quantitative Finance},
+  volume  = {10},
+  number  = {7},
+  pages   = {761--782},
+  year    = {2010},
+  doi     = {10.1080/14697680903124632}
+}
+
+@book{grinold2000active,
+  author    = {Grinold, Richard C. and Kahn, Ronald N.},
+  title     = {Active Portfolio Management: A Quantitative Approach for
+               Producing Superior Returns and Controlling Risk},
+  edition   = {2nd},
+  publisher = {McGraw-Hill},
+  address   = {New York, NY},
+  year      = {2000}
+}
+
+
+% ---------------------------------------------------------------------
+%  2. MACHINE LEARNING ASSET PRICING — il workhorse moderno
+% ---------------------------------------------------------------------
+
+@article{gu2020empirical,
+  author  = {Gu, Shihao and Kelly, Bryan and Xiu, Dacheng},
+  title   = {Empirical Asset Pricing via Machine Learning},
+  journal = {The Review of Financial Studies},
+  volume  = {33},
+  number  = {5},
+  pages   = {2223--2273},
+  year    = {2020},
+  doi     = {10.1093/rfs/hhaa009}
+}
+
+@article{chen2024deep,
+  author  = {Chen, Luyang and Pelger, Markus and Zhu, Jason},
+  title   = {Deep Learning in Asset Pricing},
+  journal = {Management Science},
+  volume  = {70},
+  number  = {2},
+  pages   = {714--750},
+  year    = {2024},
+  doi     = {10.1287/mnsc.2023.4695}
+}
+
+@article{kelly2019characteristics,
+  author  = {Kelly, Bryan T. and Pruitt, Seth and Su, Yinan},
+  title   = {Characteristics Are Covariances: A Unified Model of Risk and
+             Return},
+  journal = {Journal of Financial Economics},
+  volume  = {134},
+  number  = {3},
+  pages   = {501--524},
+  year    = {2019},
+  doi     = {10.1016/j.jfineco.2019.05.001}
+}
+
+@article{lettau2020factors,
+  author  = {Lettau, Martin and Pelger, Markus},
+  title   = {Factors That Fit the Time Series and Cross-Section of Stock
+             Returns},
+  journal = {The Review of Financial Studies},
+  volume  = {33},
+  number  = {5},
+  pages   = {2274--2325},
+  year    = {2020},
+  doi     = {10.1093/rfs/hhaa020}
+}
+
+@article{bagnara2024review,
+  author  = {Bagnara, Matteo},
+  title   = {Asset Pricing and Machine Learning: A Critical Review},
+  journal = {Journal of Economic Surveys},
+  volume  = {38},
+  number  = {1},
+  pages   = {27--56},
+  year    = {2024},
+  doi     = {10.1111/joes.12532}
+}
+
+
+% ---------------------------------------------------------------------
+%  3. ALPHA FORMULAICI — il ponte verso l'automazione
+% ---------------------------------------------------------------------
+
+@article{kakushadze2016formulaic,
+  author  = {Kakushadze, Zura},
+  title   = {101 Formulaic Alphas},
+  journal = {Wilmott},
+  volume  = {2016},
+  number  = {84},
+  pages   = {72--81},
+  year    = {2016},
+  doi     = {10.1002/wilm.10525},
+  note    = {SSRN: 2701346}
+}
+
+
+% ---------------------------------------------------------------------
+%  4. ALPHA GENERATION AUTOMATIZZATA — RL / evolutivo
+% ---------------------------------------------------------------------
+
+@inproceedings{yu2023synergistic,
+  author    = {Yu, Shuo and Xue, Hongyan and Ao, Xiang and Pan, Feiyang and
+               He, Jia and Tu, Dandan and He, Qing},
+  title     = {Generating Synergistic Formulaic Alpha Collections via
+               Reinforcement Learning},
+  booktitle = {Proceedings of the 29th ACM SIGKDD Conference on Knowledge
+               Discovery and Data Mining (KDD '23)},
+  year      = {2023},
+  doi       = {10.1145/3580305.3599831},
+  note      = {arXiv:2306.12964}
+}
+
+@misc{zhang2020autoalpha,
+  author       = {Zhang, Tianping and Li, Yuanqi and Jin, Yifei and Li, Jian},
+  title        = {{AutoAlpha}: An Efficient Hierarchical Evolutionary Algorithm
+                  for Mining Alpha Factors in Quantitative Investment},
+  year         = {2020},
+  eprint       = {2002.08245},
+  archivePrefix= {arXiv},
+  primaryClass = {q-fin.CP}
+}
+
+@misc{shin2024synergistic,
+  author       = {Shin, Hong-Gi and Jeong, Sukhyun and Kim, Eui-Yeon and
+                  Hong, Sungho and Cho, Young-Jin and Choi, Yong-Hoon},
+  title        = {Synergistic Formulaic Alpha Generation for Quantitative
+                  Trading Based on Reinforcement Learning},
+  year         = {2024},
+  eprint       = {2401.02710},
+  archivePrefix= {arXiv},
+  primaryClass = {q-fin.TR}
+}
+
+@misc{shi2024alphaforge,
+  author       = {Shi, Hao and others},
+  title        = {{AlphaForge}: A Framework to Mine and Dynamically Combine
+                  Formulaic Alpha Factors},
+  year         = {2024},
+  eprint       = {2406.18394},   % VERIFICARE arXiv ID
+  archivePrefix= {arXiv},
+  primaryClass = {q-fin.CP},
+  note         = {Presentato ad AAAI 2025}
+}
+
+
+% ---------------------------------------------------------------------
+%  5. LLM-BASED ALPHA MINING — la frontiera (il filone del tuo progetto)
+% ---------------------------------------------------------------------
+
+@misc{wang2023alphagpt,
+  author       = {Wang, Saizhuo and Yuan, Hang and Zhou, Leon and
+                  Ni, Lionel M. and Shum, Heung-Yeung and Guo, Jian},
+  title        = {{Alpha-GPT}: Human-AI Interactive Alpha Mining for
+                  Quantitative Investment},
+  year         = {2023},
+  eprint       = {2308.00016},
+  archivePrefix= {arXiv},
+  primaryClass = {q-fin.CP}
+}
+
+@misc{yuan2024alphagpt2,
+  author       = {Yuan, Hang and Wang, Saizhuo and Guo, Jian},
+  title        = {{Alpha-GPT} 2.0: Human-in-the-Loop AI for Quantitative
+                  Investment},
+  year         = {2024},
+  eprint       = {2402.09746},
+  archivePrefix= {arXiv},
+  primaryClass = {q-fin.CP}
+}
+
+@misc{wang2024quantagent,
+  author       = {Wang, Saizhuo and Yuan, Hang and Ni, Lionel M. and
+                  Guo, Jian},
+  title        = {{QuantAgent}: Seeking Holy Grail in Trading by
+                  Self-Improving Large Language Model},
+  year         = {2024},
+  eprint       = {2402.03755},
+  archivePrefix= {arXiv},
+  primaryClass = {cs.AI}
+}
+
+@misc{tang2025alphaagent,
+  author       = {Tang, Ziyi and Chen, Zechuan and Yang, Jiarui and
+                  Mai, Jiayao and Zheng, Yongsen and Wang, Keze and
+                  Chen, Jinrui and Lin, Liang},
+  title        = {{AlphaAgent}: LLM-Driven Alpha Mining with Regularized
+                  Exploration to Counteract Alpha Decay},
+  year         = {2025},
+  eprint       = {2502.16789},
+  archivePrefix= {arXiv},
+  primaryClass = {q-fin.CP}
+}
+
+@misc{chainofalpha2025,
+  author       = {Anonymous},   % VERIFICARE autori
+  title        = {Chain-of-Alpha: Unleashing the Power of Large Language
+                  Models for Alpha Mining in Quantitative Trading},
+  year         = {2025},
+  eprint       = {2508.06312},
+  archivePrefix= {arXiv},
+  primaryClass = {q-fin.CP}
+}
+
+@misc{shi2025alphajungle,
+  author       = {Shi, Yu and Duan, Yifan and Li, Jian},
+  title        = {Navigating the Alpha Jungle: An LLM-Powered MCTS Framework
+                  for Formulaic Factor Mining},
+  year         = {2025},
+  eprint       = {2505.11122},
+  archivePrefix= {arXiv},
+  primaryClass = {q-fin.CP}
+}
+
+@misc{wu2023bloomberggpt,
+  author       = {Wu, Shijie and Irsoy, Ozan and Lu, Steven and
+                  Dabravolski, Vadim and Dredze, Mark and Gehrmann, Sebastian
+                  and Kambadur, Prabhanjan and Rosenberg, David and
+                  Mann, Gideon},
+  title        = {{BloombergGPT}: A Large Language Model for Finance},
+  year         = {2023},
+  eprint       = {2303.17564},
+  archivePrefix= {arXiv},
+  primaryClass = {cs.LG}
+}
+
+
+% ---------------------------------------------------------------------
+%  6. SURVEY / RASSEGNE — per la bibliografia esaustiva
+% ---------------------------------------------------------------------
+
+@article{survey2025llmalpha,
+  author  = {{Frontiers of Information Technology \& Electronic Engineering}},
+  title   = {A Survey on Large Language Model-Based Alpha Mining},
+  journal = {Frontiers of Information Technology \& Electronic Engineering},
+  year    = {2025},
+  doi     = {10.1631/FITEE.2500386},
+  note    = {VERIFICARE elenco autori}
+}
+
+@misc{cao2025dl2llm,
+  author       = {Cao, Bokai and Wang, Saizhuo and Lin, Xinyi and Wu, Xing and
+                  Zhang, Hao and Ni, Lionel M. and Guo, Jian},
+  title        = {From Deep Learning to LLMs: A Survey of AI in Quantitative
+                  Investment},
+  year         = {2025},
+  eprint       = {2503.21422},
+  archivePrefix= {arXiv},
+  primaryClass = {q-fin.CP}
+}
