@@ -1,0 +1,39 @@
+Keystone — Proprietary License (All Rights Reserved)
+
+Copyright (c) 2026 Emanuele Migliaccio. All rights reserved.
+
+This repository is published publicly for the sole purposes of portfolio review,
+evaluation, and demonstration of the author's work. Publishing it here does NOT
+place it in the public domain and does NOT grant an open-source license.
+
+PERMITTED
+  You may view and read the source code, documentation, and research artifacts
+  contained in this repository for personal, non-commercial evaluation only.
+
+NOT PERMITTED (without the prior written permission of the copyright holder)
+  - Copying, reproducing, or redistributing the code or documentation, in whole
+    or in part, in source or compiled form.
+  - Modifying, adapting, translating, or creating derivative works.
+  - Using the code, methods, configurations, or any portion thereof in other
+    projects, products, or services, whether commercial or non-commercial.
+  - Incorporating any part of this work into a training corpus or dataset.
+  - Removing, obscuring, or altering this notice or the copyright attribution.
+
+No trademark, patent, or other intellectual-property rights are granted by
+implication, estoppel, or otherwise.
+
+DISCLAIMER
+  The market data, model outputs, backtests, and research conclusions in this
+  repository are provided for informational and educational purposes only and do
+  not constitute investment advice or an offer to buy or sell any security.
+
+  THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR
+  IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY,
+  FITNESS FOR A PARTICULAR PURPOSE, AND NONINFRINGEMENT. IN NO EVENT SHALL THE
+  AUTHOR OR COPYRIGHT HOLDER BE LIABLE FOR ANY CLAIM, DAMAGES, OR OTHER
+  LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT, OR OTHERWISE, ARISING FROM,
+  OUT OF, OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE
+  SOFTWARE.
+
+To request permission for any use beyond viewing and evaluation, contact the
+copyright holder.

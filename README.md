@@ -147,7 +147,9 @@ the data actually says — including when it says *no*.
 
 ## 🤝 Acknowledgments
 
-Point-in-time market-data access (Refinitiv/LSEG) was contributed by **Filippo** — it made the
-single-stock, survivorship-free research feasible. Built with AI-assisted tooling (Claude Code).
+Point-in-time market-data access (Refinitiv/LSEG) was contributed by
+**[Filippo](https://github.com/fmazzocca)** — it made the single-stock, survivorship-free research
+feasible. Built with AI-assisted tooling (Claude Code).
 
-<sub>For research and educational purposes only — not investment advice.</sub>
+<sub>© 2026 Emanuele Migliaccio — All rights reserved (see [LICENSE](LICENSE)). Published for portfolio
+review; for research and educational purposes only — not investment advice.</sub>
